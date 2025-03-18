@@ -1,0 +1,48 @@
+h1{
+    border: 3px solid rgb(255, 145, 0);
+    text-align: center;
+}
+.portal{
+    border: 3px solid yellow;
+    color: darkgrey;
+    background-color: #d3d3d3;
+    width: 80%;
+    height: 100%;
+    border: 10px double rgba(0, 0, 0, 0.489);
+    margin: 10px auto;
+    padding: 2px;
+    position: relative;
+}
+
+.portal hr{
+    border: 3px solid rgb(0, 255, 140);
+    margin-bottom: 10px;
+}
+
+/* I set the position of the portal to relative to help position the health and coin status boxes where i want them if i understand this correctly it offsets the the element relative to itself instead of the whole document but space availible still acts as if it were static and falls within the normal flow of the container instead of the document it also sets this element up as the closest positioned ancestor to my stat boxes and my game title */
+
+.stat1{
+    border: 3px solid rgb(0, 204, 255);
+    height: 85px;
+    width: 85px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.stat2{
+    position: absolute;
+    border: 3px solid rgb(85, 0, 255);
+    height: 85px;
+    width: 85px;
+    top: 10px;
+    left: 8px;
+    }
+
+.startBtn{
+    border: 3px solid rgb(162, 0, 255);
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+

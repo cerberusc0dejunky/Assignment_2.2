@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="code.js"></script>
 </head>
-
+<!-- im using divs since the content doesnt have a semantic meaning  -->
 <body>
-    <!-- my heading and the title of the game -->
-    <!-- im using a div because a div is fine when the content doesnt need semantic meaning -->
-    <div class="game-container">
-        <h1>Adventure Encounter Browser Safari</h1>
-        <!-- this is the button that starts the adventure -->
-        <button class="adventure-btn" onclick="startAdventure()">Adventure!</button>
-        <!-- using the inline onclick attribute to trigger the startAdventure Function -->
-        <p class="message">Click the button to Start your Journey</p>
-        <!-- the message container will update after each round to tell what happend that round -->
-        <div class="stats">
-            <p>Health: <span class="health">100</span></p>
-        </div>
-        <!-- this container will update after damageRoll() -->
-        <div class="coins">
-            <p>Health: <span class="health">0</span></p>
-        </div>
-        <!-- this container will add (x)amount of coins after a coinRoll() -->
-    </div>
-</body>
 
+  <div class="portal">
+
+           <div class="stat1">
+            <p>Health</p>
+            <p id="health">100</p>
+        </div>
+
+
+        <h1>Adventure Encounter Game</h1>
+
+
+        <div class="stat1">
+            <p>Coins</p>
+            <p id="coins">0</p>
+        </div>
+        
+     <button id="startBtn" onclick="rollDice()">Roll Dice!</button>
+     <hr>
+  </div>
+
+
+
+</body>
 </html>
