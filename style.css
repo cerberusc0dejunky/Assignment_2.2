@@ -46,9 +46,9 @@ h1{
     text-align: center;
     }
 
-#startBtn{
+.startBtn{
     display: block;
-    background-image: url(img/activedice.png);
+    background-image: url("img/activedice.png");
     background-size: contain;
     position: absolute;
     top: 50%;
@@ -57,9 +57,9 @@ h1{
     width: 100px;
    }
 
-#startBtn a:hover{
+.startBtn a :hover{
     display: block;
-    background-image: url(img/restingdice.png);
+    background-image: url("img/restingdice.png");
     background-size: contain;
     position: absolute;
 }

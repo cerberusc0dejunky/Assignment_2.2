@@ -18,8 +18,8 @@
         </div>
         
             <h1> Adventure Encounter Game </h1>
-        <button id="startBtn" onclick="rollDice()"></button>
-        
+        <button class="rollButton" onclick="rollFate()">Roll Fate</button>
+
         <div class="stat2">
             <p>Coins</p>
             <p id="coins">0</p>
@@ -29,7 +29,10 @@
     
         <hr>
         </div>
-        <div id="status">Welcome to the Adventure encounter game! Roll the dice to start the game!</div>
+        <div id="status">Welcome to the Adventure encounter game! Roll the dice to start the game!
+            <img id="rollImageActive" src="roll_active.png" alt="Roll Active" style="display: block;">
+  <img id="rollImageInactive" src="roll_inactive.png" alt="Roll Inactive" style="display: none;">
+        </div>
         </div>
     
 </body>
