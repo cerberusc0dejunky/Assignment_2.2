@@ -10,28 +10,27 @@
 </head>
 <!-- im using divs since the content doesnt have a semantic meaning  -->
 <body>
+    <div class="portal">
 
-  <div class="portal">
-
-           <div class="stat1">
+        <div class="stat1">
             <p>Health</p>
             <p id="health">100</p>
         </div>
-
-
-        <h1>Adventure Encounter Game</h1>
-
-
-        <div class="stat1">
+        
+            <h1> Adventure Encounter Game </h1>
+        <button id="startBtn" onclick="rollDice()"></button>
+        
+        <div class="stat2">
             <p>Coins</p>
             <p id="coins">0</p>
-        </div>
+        </div>	
         
-     <button id="startBtn" onclick="rollDice()">Roll Dice!</button>
-     <hr>
-  </div>
-
-
-
+              
+    
+        <hr>
+        </div>
+        <div id="status">Welcome to the Adventure encounter game! Roll the dice to start the game!</div>
+        </div>
+    
 </body>
 </html>
